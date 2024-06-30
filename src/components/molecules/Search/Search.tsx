@@ -17,7 +17,7 @@ export const SearchComponent = () => {
       setSearchResult(response?.data?.articles);
 
       const category = {
-        title: `Search Results found - ${searchQuery}`,
+        title: `Search Results found - ${searchResult}`,
         data: response?.data?.articles,
       };
       navigate('/detail/search', {state: {category}});
