@@ -1,4 +1,7 @@
 module.exports = {
+  rules: {
+    'no-unused-vars': ['warn'],
+  },
   env: { browser: true, es2020: true },
   extends: [
     'eslint:recommended',
